@@ -105,5 +105,3 @@ class Leimg_ImageDeleteAction extends Leimg_AbstractDeleteAction
 		$this->mRoot->mController->executeForward($this->_getNextUri('image'));
 	}
 }
-
-?>

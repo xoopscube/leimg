@@ -30,7 +30,10 @@ class Leimg_ImageDelegate implements Legacy_iImageDelegate
 	 */ 
 	public static function saveImage(/*** bool ***/ &$ret, /*** Legacy_AbstractImageObject ***/ $obj)
 	{
-		$handler = Legacy_Utils::getModuleHandler('image', $obj->getDirname());
+		//!Fix
+		// $handler = Legacy_Utils::getModuleHandler('image', $obj->getDirname());
+		$handler = Legacy_Utils::getModuleHandler('image', LEGACY_IMAGE_DIRNAME);
+
 		$ret = $handler->saveUploadedFile($obj);
 	}
 

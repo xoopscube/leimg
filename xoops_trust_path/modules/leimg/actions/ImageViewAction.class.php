@@ -65,4 +65,3 @@ class Leimg_ImageViewAction extends Leimg_AbstractViewAction
 	}
 }
 
-?>

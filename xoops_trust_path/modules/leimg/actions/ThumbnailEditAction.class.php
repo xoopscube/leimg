@@ -154,5 +154,3 @@ class Leimg_ThumbnailEditAction extends Leimg_AbstractEditAction
 		$this->mRoot->mController->executeForward($this->_getNextUri('thumbnail', 'list'));
 	}
 }
-
-?>

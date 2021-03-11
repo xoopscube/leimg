@@ -38,8 +38,8 @@ define('_MI_LEIMG_INSTALL_ERROR_CONFIG_UPDATED', 'Config \'{0}\' could not updat
 define('_MI_LEIMG_INSTALL_ERROR_CONFIG_NOT_FOUND', 'Config is not found.');
 define('_MI_LEIMG_INSTALL_MSG_MODULE_INFORMATION_DELETED', 'Module information is deleted.');
 define('_MI_LEIMG_INSTALL_ERROR_MODULE_INFORMATION_DELETED', 'Module information could not deleted.');
-define('_MI_LEIMG_INSTALL_MSG_TABLE_DOROPPED', 'Table \'{0}\' is doropped.');
-define('_MI_LEIMG_INSTALL_ERROR_TABLE_DOROPPED', 'Table \'{0}\' could not doropped.');
+define('_MI_LEIMG_INSTALL_MSG_TABLE_DOROPPED', 'Table \'{0}\' is dropped.');
+define('_MI_LEIMG_INSTALL_ERROR_TABLE_DOROPPED', 'Table \'{0}\' could not dropped.');
 define('_MI_LEIMG_INSTALL_ERROR_BLOCK_TPL_DELETED', 'Block template could not deleted.<br />{0}');
 define('_MI_LEIMG_INSTALL_MSG_MODULE_UNINSTALLED', 'Module \'{0}\' is uninstalled.');
 define('_MI_LEIMG_INSTALL_ERROR_MODULOE_UNINSTALLED', 'Module \'{0}\' could not uninstalled.');

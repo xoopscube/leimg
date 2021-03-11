@@ -111,5 +111,3 @@ class Leimg_ImageEditAction extends Leimg_AbstractEditAction
 		$this->mRoot->mController->executeForward($this->_getNextUri('image'));
 	}
 }
-
-?>

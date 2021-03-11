@@ -93,5 +93,3 @@ class Leimg_ImageListAction extends Leimg_AbstractListAction
 		$render->setAttribute('pageNavi', $this->mFilter->mNavi);
 	}
 }
-
-?>

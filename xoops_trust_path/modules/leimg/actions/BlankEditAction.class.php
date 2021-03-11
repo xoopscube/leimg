@@ -80,6 +80,7 @@ class Leimg_BlankEditAction extends Leimg_AbstractEditAction
 	{
 		$dirname = $this->mRoot->mContext->mRequest->getRequest('dir');
 		$dataname = $this->mRoot->mContext->mRequest->getRequest('dtname');
+
 		$this->_setupObject();
 	
 		$this->_setupActionForm();
@@ -283,5 +284,3 @@ class Leimg_BlankEditAction extends Leimg_AbstractEditAction
 		}
 	}
 }
-
-?>

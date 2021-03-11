@@ -143,5 +143,3 @@ class Leimg_ThumbnailDeleteAction extends Leimg_AbstractDeleteAction
 		$this->mRoot->mController->executeForward($this->_getNextUri('thumbnail'));
 	}
 }
-
-?>

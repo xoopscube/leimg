@@ -98,6 +98,7 @@ class Leimg_ThumbnailListAction extends Leimg_AbstractListAction
 		//get Image client module list
 		$list = array();
 		XCube_DelegateUtils::call('Legacy_ImageClient.GetClientList', new XCube_Ref($list), $this->mAsset->mDirname);
+
 		foreach($list as $client){
 			$cri = new CriteriaCompo();
 			$cri->add(new Criteria('dirname', $client['dirname']));
@@ -128,5 +129,3 @@ class Leimg_ThumbnailListAction extends Leimg_AbstractListAction
 		//$render->setAttribute('pageNavi', $this->mFilter->mNavi);
 	}
 }
-
-?>

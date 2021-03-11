@@ -1,6 +1,6 @@
 CREATE TABLE `{prefix}_{dirname}_image` (
   `image_id` int(11) unsigned NOT NULL	auto_increment,
-  `title` varchar(255) NOT NULL,
+  `title` varchar(191) NOT NULL,
   `uid` mediumint(8) unsigned NOT NULL,
   `dirname` varchar(25) NOT NULL,
   `dataname` varchar(25) NOT NULL,

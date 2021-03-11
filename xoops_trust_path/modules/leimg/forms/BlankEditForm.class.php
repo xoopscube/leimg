@@ -20,9 +20,9 @@ class Leimg_BlankEditForm extends XCube_ActionForm
 {
 	/**
 	 * getTokenName
-	 * 
+	 *
 	 * @param	void
-	 * 
+	 *
 	 * @return	string
 	**/
 	public function getTokenName()
@@ -32,9 +32,9 @@ class Leimg_BlankEditForm extends XCube_ActionForm
 
 	/**
 	 * prepare
-	 * 
+	 *
 	 * @param	void
-	 * 
+	 *
 	 * @return	void
 	**/
 	public function prepare()
@@ -43,9 +43,9 @@ class Leimg_BlankEditForm extends XCube_ActionForm
 
 	/**
 	 * load
-	 * 
+	 *
 	 * @param	XoopsSimpleObject  &$obj
-	 * 
+	 *
 	 * @return	void
 	**/
 	public function load(/*** XoopsSimpleObject ***/ &$obj)
@@ -54,9 +54,9 @@ class Leimg_BlankEditForm extends XCube_ActionForm
 
 	/**
 	 * update
-	 * 
+	 *
 	 * @param	XoopsSimpleObject  &$obj
-	 * 
+	 *
 	 * @return	void
 	**/
 	public function update(/*** XoopsSimpleObject ***/ &$obj)
@@ -64,5 +64,3 @@ class Leimg_BlankEditForm extends XCube_ActionForm
 	}
 
 }
-
-?>

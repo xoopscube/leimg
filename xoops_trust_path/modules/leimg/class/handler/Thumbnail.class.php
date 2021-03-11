@@ -151,7 +151,9 @@ class Leimg_ThumbnailHandler extends XoopsObjectGenericHandler
 	public function __construct(/*** XoopsDatabase ***/ &$db,/*** string ***/ $dirname)
 	{
 		$this->mTable = strtr($this->mTable,array('{dirname}' => $dirname));
-		parent::XoopsObjectGenericHandler($db);
+		//!Fix Error: Call to undefined method
+		//parent::XoopsObjectGenericHandler($db);
+		parent::__construct($db);
 	}
 
 	/**
@@ -208,4 +210,3 @@ class Leimg_ThumbnailHandler extends XoopsObjectGenericHandler
 	}
 }
 
-?>

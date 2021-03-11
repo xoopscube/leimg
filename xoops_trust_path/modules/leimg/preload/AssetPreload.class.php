@@ -88,7 +88,10 @@ class Leimg_AssetPreloadBase extends XCube_ActionFilter
 	public static function getManager(/*** Leimg_AssetManager ***/ &$obj,/*** string ***/ $dirname)
 	{
 		require_once LEIMG_TRUST_PATH . '/class/AssetManager.class.php';
-		$obj = Leimg_AssetManager::getInstance($dirname);
+		//!Fix DEPRECATED: Non-static method
+		//$obj = Leimg_AssetManager::getInstance($dirname);
+		$obj = new Leimg_AssetManager($dirname);
+		$obj->getInstance($dirname);
 	}
 
 	/**
@@ -128,5 +131,3 @@ class Leimg_AssetPreloadBase extends XCube_ActionFilter
 		}
 	}
 }
-
-?>

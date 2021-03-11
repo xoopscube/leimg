@@ -65,8 +65,8 @@ $this->mFieldProperties['image_id']->addMessage('required', _MD_LEIMG_ERROR_REQU
 		$this->mFieldProperties['title'] = new XCube_FieldProperty($this);
 		$this->mFieldProperties['title']->setDependsByArray(array('required','maxlength'));
 		$this->mFieldProperties['title']->addMessage('required', _MD_LEIMG_ERROR_REQUIRED, _MD_LEIMG_LANG_TITLE);
-		$this->mFieldProperties['title']->addMessage('maxlength', _MD_LEIMG_ERROR_MAXLENGTH, _MD_LEIMG_LANG_TITLE, '255');
-		$this->mFieldProperties['title']->addVar('maxlength', '255');
+		$this->mFieldProperties['title']->addMessage('maxlength', _MD_LEIMG_ERROR_MAXLENGTH, _MD_LEIMG_LANG_TITLE, '191');
+		$this->mFieldProperties['title']->addVar('maxlength', '191');
 		$this->mFieldProperties['uid'] = new XCube_FieldProperty($this);
 		$this->mFieldProperties['dirname'] = new XCube_FieldProperty($this);
 $this->mFieldProperties['dirname']->setDependsByArray(array('required'));
